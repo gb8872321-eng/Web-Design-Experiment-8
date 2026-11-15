@@ -1,0 +1,26 @@
+### GET all books
+GET http://localhost:3000/books
+
+### GET one book
+GET http://localhost:3000/books/1
+
+### POST a new book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Atomic Habits",
+  "author": "James Clear"
+}
+
+### PUT update book 1
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  "title": "Wings of Fire Updated",
+  "author": "A. P. J. Abdul Kalam"
+}
+
+### DELETE book 2
+DELETE http://localhost:3000/books/2

@@ -1,0 +1,12 @@
+{
+  "name": "book-collection-api",
+  "version": "1.0.0",
+  "description": "Experiment 8 - RESTful Book Collection API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
